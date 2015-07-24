@@ -1,5 +1,5 @@
 ## Ubuntu-101
--------------
+
 Lista dos Comandos de Terminal vistos no Curso Ubuntu 101
 
 #### apt-get
@@ -156,3 +156,130 @@ Mostra as 10 últimas linhas do conteúdo de um arquivo na tela.
 > `tail <caminho>/<nome do arquivo>` 
 
 > Para ver outra quantidade de linhas (exemplo: 2) use `tail -2 <caminho>/<nome do arquivo>` 
+
+#### time
+Vídeo: *Parte 12 - Revisando Comandos de Terminal*
+
+Mostra o tempo que o comando solicitado leva para rodar no sistema.
+
+> `time <comando>` 
+
+> Para ver o tempo em segundo use `time -p <comando>` 
+
+#### date
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra a data e a hora do sistema.
+
+> `date` 
+
+#### hostname
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra o IP da máquina (IPv4).
+
+> `hostname -I` 
+
+#### ip addr
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra os IPs da máquina e informações adicionais.
+
+> `ip addr` 
+
+#### free
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra a memória total e livre da máquina
+
+> `free` 
+
+> Para exibir uma versão mais amigável dos números use `free -h` 
+
+#### df
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra o espaço total e disponível dos dispositivos da máquina (ie: discos):
+
+> `df` 
+
+> Para exibir uma versão mais amigável dos números use `df -h` 
+
+#### du
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra o espaço ocupado das pastas selecionadas:
+
+> `du <caminho>` 
+
+> Para exibir o tamanho total da pasta selecionada use `df -s <caminho>` 
+
+> Para exibir o tamanho total das pastas dentro da pasta selecionada use `df -s *` 
+
+> Para exibir uma versão mais amigável dos números use `df -h <caminho>` 
+
+#### compgen
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra todos os comandos e apelidos disponíveis para rodar no terminal
+
+> `compgen -ac`
+
+#### man
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra o manual de utilização de um determinado comando
+
+> `man <comando>`
+
+> Para ver o manual do manual use `man man`
+
+> Para obter a explicação da hierarquia de pastas do Ubuntu, use `man hier`
+
+#### shutdown
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Desliga o sistema após o intervalo de tempo especificado, informando uma mensagen a todos os usuários logados, se precisar.
+
+> `shutdown [tempo] [mensagem]`
+
+> Para desligar imediatamente use `shutdown now`
+
+> Para desligar após um determinado período de tempo (ex. 10 minutos) use `shutdown 00:10`
+
+> Para desligar e reiniciar use `shutdown -r`
+
+#### reboot
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Reinicia o computador
+
+> `reboot`
+
+#### history
+Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+
+Mostra o histórico com todos os comandos feitos pelo terminal
+
+> `history`
+
+> Para executar um comando antigo use `!<número do comando>`
+
+#### printenv
+Vídeo: *Parte 15 - Variáveis de Ambiente - Parte 2*
+
+Mostra as variáveis de ambiente atuais
+
+> `printenv`
+
+> Para listar as variáveis, pausando tela a tela, use `printenv | less`
+
+> Para buscar uma determinada variável, use `printenv | grep <nome da variavel>`
+
+#### grep
+Vídeo: *Parte 15 - Variáveis de Ambiente - Parte 2*
+
+Busca o texto ou expressão regular no conteúdo de um arquivo ou saída de um comando
+
+> `grep <texto>`
+
