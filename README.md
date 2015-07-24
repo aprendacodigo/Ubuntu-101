@@ -167,28 +167,28 @@ Mostra o tempo que o comando solicitado leva para rodar no sistema.
 > Para ver o tempo em segundo use `time -p <comando>` 
 
 #### date
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra a data e a hora do sistema.
 
 > `date` 
 
 #### hostname
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra o IP da máquina (IPv4).
 
 > `hostname -I` 
 
 #### ip addr
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra os IPs da máquina e informações adicionais.
 
 > `ip addr` 
 
 #### free
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra a memória total e livre da máquina
 
@@ -197,7 +197,7 @@ Mostra a memória total e livre da máquina
 > Para exibir uma versão mais amigável dos números use `free -h` 
 
 #### df
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra o espaço total e disponível dos dispositivos da máquina (ie: discos):
 
@@ -206,7 +206,7 @@ Mostra o espaço total e disponível dos dispositivos da máquina (ie: discos):
 > Para exibir uma versão mais amigável dos números use `df -h` 
 
 #### du
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra o espaço ocupado das pastas selecionadas:
 
@@ -219,14 +219,14 @@ Mostra o espaço ocupado das pastas selecionadas:
 > Para exibir uma versão mais amigável dos números use `df -h <caminho>` 
 
 #### compgen
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra todos os comandos e apelidos disponíveis para rodar no terminal
 
 > `compgen -ac`
 
 #### man
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra o manual de utilização de um determinado comando
 
@@ -237,7 +237,7 @@ Mostra o manual de utilização de um determinado comando
 > Para obter a explicação da hierarquia de pastas do Ubuntu, use `man hier`
 
 #### shutdown
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Desliga o sistema após o intervalo de tempo especificado, informando uma mensagen a todos os usuários logados, se precisar.
 
@@ -250,14 +250,14 @@ Desliga o sistema após o intervalo de tempo especificado, informando uma mensag
 > Para desligar e reiniciar use `shutdown -r`
 
 #### reboot
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Reinicia o computador
 
 > `reboot`
 
 #### history
-Vídeo: *Parte 13 - Uma Tour por Comandos de Terminal*
+Vídeo: *Parte 13 - Comandos de Terminal Úteis*
 
 Mostra o histórico com todos os comandos feitos pelo terminal
 
