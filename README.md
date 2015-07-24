@@ -5,6 +5,8 @@ Lista dos Comandos de Terminal vistos no Curso Ubuntu 101
 #### apt-get
 Vídeo: *Parte 6 - Configurando e Instalando Programas*
 
+Vídeo: *Parte 11 - Revendo a Instalação de Programas*
+
 Utilize para instalar e desinstalar programas/pacotes:
 
 > Atualizar Repositórios: `apt-get update`
@@ -97,12 +99,60 @@ Editor de texto padrão do Terminal Ubuntu
 #### cp
 Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
 
-Copiar arquivos:
+Copiar arquivos ou Pastas:
 
-> Copiar no mesmo diretório com novo nome: `cp <caminho>/<nome do arquivo original> <caminho>/<nome do novo arquivo>`
+> Copiar no mesmo diretório com novo nome: `cp <caminho>/<nome do arquivo original> <caminho>/<nome do novo arquivo/pasta>`
 
-> Copiar em outro diretório com mesmo nome: `cp <caminho original>/<nome do arquivo> <novo caminho>/<nome do arquivo>`
+> Copiar em outro diretório com mesmo nome: `cp <caminho original>/<nome do arquivo/pasta> <novo caminho>/<nome do arquivo/pasta>`
 
-> Copiar em outro diretório com novo nome: `cp <caminho original>/<nome do arquivo original> <novo caminho>/<nome do novo arquivo>`
+> Copiar em outro diretório com novo nome: `cp <caminho original>/<nome do arquivo/pasta original> <novo caminho>/<nome do novo arquivo/pasta>`
 
+#### mv
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
 
+Mover ou renomear um Arquivo:
+
+> Renomear um Arquivo ou Pasta: `mv <caminho>/<nome do arquivo/pasta original> <caminho>/<nome do novo arquivo/pasta>`
+
+> Mover para outro diretório com mesmo nome: `mv <caminho original>/<nome do arquivo/pasta> <novo caminho>/<nome do arquivo/pasta>`
+
+> Mover para outro diretório com novo nome: `mv <caminho original>/<nome do arquivo/pasta original> <novo caminho>/<nome do novo arquivo/pasta>`
+
+#### >
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
+
+Grava a saída de um comando em um arquivo
+
+> `man hier > diretorios.txt`
+
+#### cat
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
+
+Mostra o conteúdo de um arquivo na tela
+
+> `cat <caminho>/<nome do arquivo>` 
+
+#### less
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
+
+Mostra o conteúdo de um arquivo na tela, pausando tela a tela
+
+> `less <caminho>/<nome do arquivo>` 
+
+#### head
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
+
+Mostra as 10 primeiras linhas do conteúdo de um arquivo na tela.
+
+> `head <caminho>/<nome do arquivo>` 
+
+> Para ver outra quantidade de linhas (exemplo: 2) use `head -2 <caminho>/<nome do arquivo>` 
+
+#### tail
+Vídeo: *Parte 10 - Trabalhando com Arquivos - Segunda Parte*
+
+Mostra as 10 últimas linhas do conteúdo de um arquivo na tela.
+
+> `tail <caminho>/<nome do arquivo>` 
+
+> Para ver outra quantidade de linhas (exemplo: 2) use `tail -2 <caminho>/<nome do arquivo>` 
