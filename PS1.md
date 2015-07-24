@@ -26,11 +26,11 @@ As opções disponíveis para alterá-la são:
 * \v : a versão do bash (exemplo: 2.00)
 * \V : a versão do bash, com versão e patch (exemplo: 2.00.0)
 * \w : o diretório de trabalho atual, com $HOME abreviado por "~"
-* \W : the basename of the current working directory, with $HOME abbreviated with a tilde
-* \! : the history number of this command
-* \# : the command number of this command
-* \$ : if the effective UID is 0, a #, otherwise a $
-* \nnn : the character corresponding to the octal number nnn
-* \\ : a backslash
-* \[ : begin a sequence of non-printing characters, which could be used to embed a terminal control sequence into the prompt
-* \] : end a sequence of non-printing characters
+* \W : o nome do diretório atual, sem o caminho, com $HOME abreviado por "~"
+* \! : o número desse comando no histórico
+* \# : o número de comando do comando
+* \$ : se o usuário for superusuario mostra #, senão mostra $
+* \nnn : o caracter correspondente ao código nnn
+* \\ : mostra a barra invertida
+* \[ : inicia uma sequencia de caracteres
+* \] : termina a sequencia de caracteres
