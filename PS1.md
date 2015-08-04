@@ -34,3 +34,4 @@ As opções disponíveis para alterá-la são:
 * \\ : mostra a barra invertida
 * \[ : inicia uma sequencia de caracteres
 * \] : termina a sequencia de caracteres
+* \$(__git_ps1) : mostra o branch do Git
